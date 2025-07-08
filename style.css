@@ -42,18 +42,20 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .flowers {
-  position: absolute;
-  transform: scale(0.7);
-  bottom: 0;
-}
-}
+
 
 .flowers {
   position: absolute;
   transform: scale(0.4);
   bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .flowers {
+  position: absolute;
+  transform: scale(0.8);
+  bottom: 0;
+}
 }
 
 
